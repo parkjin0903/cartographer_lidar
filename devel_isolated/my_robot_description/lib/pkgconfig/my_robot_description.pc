@@ -1,0 +1,8 @@
+prefix=/root/rplidar_ws/devel_isolated/my_robot_description
+
+Name: my_robot_description
+Description: Description of my_robot_description
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

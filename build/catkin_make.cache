@@ -1,0 +1,2 @@
+cartographer:cartographer_ros/cartographer_ros:cartographer_ros/cartographer_ros_msgs:cartographer_ros/cartographer_rviz:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/root/rplidar_ws/devel -DCMAKE_INSTALL_PREFIX=/root/rplidar_ws/install -G Unix Makefiles
