@@ -1,0 +1,19 @@
+<launch>
+  <arg name="configuration_directory" default="/root/rplidar_ws/src/cartographer_ros/cartographer_ros/configuration_files" />
+  
+  <include file="$(find rplidar_ros)/launch/rplidar.launch" />
+  <include file="$(find my_robot_description)/launch/robot_state_publisher.launch" />
+
+  <node name="cartographer_node" pkg="cartographer_ros" type="cartographer_node" args="
+      -configuration_directory $(arg configuration_directory)
+      -configuration_basename rplidar_a2_cartographer.lua"
+    output="screen">
+    <remap from="echoes" to="scan" />
+  </node>
+
+  <node name="cartographer_occupancy_grid_node" pkg="cartographer_ros" type="cartographer_occupancy_grid_node" args="-resolution 0.05">
+    <remap from="map" to="map" />
+    <remap from="map_info" to="map_metadata" />
+  </node>
+</launch>
+

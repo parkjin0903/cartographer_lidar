@@ -1,0 +1,16 @@
+/root/rplidar_ws/install_isolated/_setup_util.py
+/root/rplidar_ws/install_isolated/env.sh
+/root/rplidar_ws/install_isolated/setup.bash
+/root/rplidar_ws/install_isolated/local_setup.bash
+/root/rplidar_ws/install_isolated/setup.sh
+/root/rplidar_ws/install_isolated/local_setup.sh
+/root/rplidar_ws/install_isolated/setup.zsh
+/root/rplidar_ws/install_isolated/local_setup.zsh
+/root/rplidar_ws/install_isolated/.rosinstall
+/root/rplidar_ws/install_isolated/lib/pkgconfig/my_robot_description.pc
+/root/rplidar_ws/install_isolated/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+/root/rplidar_ws/install_isolated/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+/root/rplidar_ws/install_isolated/share/my_robot_description/package.xml
+/root/rplidar_ws/install_isolated/share/my_robot_description/launch/robot_state_publisher.launch
+/root/rplidar_ws/install_isolated/share/my_robot_description/launch/display.launch
+/root/rplidar_ws/install_isolated/share/my_robot_description/urdf/my_robot.urdf.xacro

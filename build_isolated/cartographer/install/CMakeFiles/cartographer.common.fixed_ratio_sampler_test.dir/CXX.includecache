@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/rplidar_ws/src/cartographer/cartographer/common/fixed_ratio_sampler.h
+string
+-
+cartographer/common/port.h
+/root/rplidar_ws/src/cartographer/cartographer/common/cartographer/common/port.h
+
+/root/rplidar_ws/src/cartographer/cartographer/common/fixed_ratio_sampler_test.cc
+cartographer/common/fixed_ratio_sampler.h
+/root/rplidar_ws/src/cartographer/cartographer/common/cartographer/common/fixed_ratio_sampler.h
+gtest/gtest.h
+/root/rplidar_ws/src/cartographer/cartographer/common/gtest/gtest.h
+
+/root/rplidar_ws/src/cartographer/cartographer/common/port.h
+boost/iostreams/device/back_inserter.hpp
+-
+boost/iostreams/filter/gzip.hpp
+-
+boost/iostreams/filtering_stream.hpp
+-
+cinttypes
+-
+cmath
+-
+string
+-
+

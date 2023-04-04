@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /root/rplidar_ws/devel_isolated/rplidar_ros/setup.sh
